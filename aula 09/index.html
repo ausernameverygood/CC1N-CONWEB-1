@@ -11,10 +11,16 @@
     font: bold, medium, normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-}
+    }
+    .imagem{
+        float: left; width: 500px; height: auto;;
+    }
 </style>
 </head>
 <body>
-    
+    <picture>
+        <source media="(max-width: 1000px)" srcset="./imagem/nosunshine.jpg" type="image/jpg">
+        <img class="imagem" src="./imagem/lebronsunshinecover.jpg" alt="sunshine">
+    </picture>
 </body>
 </html>
