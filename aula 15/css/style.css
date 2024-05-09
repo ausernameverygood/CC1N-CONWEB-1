@@ -1,0 +1,44 @@
+body{
+    background-color: #051336;
+    color: aliceblue;
+    font: bold, medium, normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+div{
+    background-color: lightcyan;
+}
+
+#divsimples{
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+}
+.divsimples{
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+}
+.divtratada{
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.divtratada:hover{
+    color: black;
+    background-color: rgb(255, 144, 54);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.divtratada:hover > span{
+    background-color: #051336;
+    color: aliceblue;
+}
