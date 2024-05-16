@@ -1,0 +1,19 @@
+body{
+    background-color: #051336;
+    color: aliceblue;
+    font: bold, medium, normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+section{
+    height: 200px;
+    display: flex;
+    background-color: #171d2b;
+    flex-direction: row;
+}
+
+.div{
+    background-color: #3d4d74;
+    margin: 10px;
+}
